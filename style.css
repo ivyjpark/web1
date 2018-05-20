@@ -1,0 +1,218 @@
+/* Ivy */
+
+
+h1{
+	text-align: center;
+	color: darkblue;
+	text-shadow: 5px 5px 7px lavender;
+	font-family: Luminari;
+	font-size: 40px;
+}
+
+
+h2{
+	color: indigo;
+	text-shadow: 3px 3px 5px white;
+	padding: 5px;
+	font-family: "Luminari";
+}
+
+
+h3{
+	color: indigo;
+	padding: 3px 20px 0px 50px;
+	font-family: "Luminari";
+}
+
+
+body{ 
+    background-color: #2966B8; no-repeat fixed center; 
+}
+
+
+.container{
+	background-color: #A9C5EB;
+	outline-style: double;
+    outline-color: lavender;
+	width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+
+
+.section1{
+	background-color: #A5DBEB;
+	outline-style: double;
+	outline-color: lavender;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+}
+
+
+.section2{
+	background-color: #7BCAE1;
+	outline-style: double;
+	outline-color: lavender;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+}
+
+
+.section3{
+	background-color: #2FAACE;
+	outline-style: double;
+    outline-color: lavender;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+
+.section4{
+	background-color: #2897B7;
+	outline-style: double;
+    outline-color: lavender;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+
+.section5{
+	background-color: #23819C;
+	outline-style: double;
+    outline-color: lavender;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+
+.copyright{
+	padding: 1px 220px 1px 220px;
+	text-align: center;
+}
+
+
+img{
+	margin: auto;
+	margin-bottom: 50px;
+	width: 400px;
+	padding: 4px;
+	display: block;
+	outline-style: dotted;
+	outline-color: lavender;
+}
+
+
+p{
+	margin-left: 50px;
+	margin-right: 40px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	font-family: "Optima";
+	font-size: 18px;
+	color: #154360;
+}
+
+
+.p2{
+	float: right;
+	width: 300px;
+	margin-right: 40px;
+	font-family: "Optima";
+	font-size: 18px;
+	color: #154360;
+}
+
+
+.p3{
+	margin-left: 50px;
+	margin-right: 40px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	font-family: "Optima";
+	font-size: 18px;
+	color: #D6EAF8;
+}
+
+
+.p4{
+	float: right;
+	width: 300px;
+	margin-right: 40px;
+	font-family: "Optima";
+	font-size: 18px;
+	color: #D6EAF8;
+}
+
+
+.comment{
+	margin: auto;
+	text-align: center;
+	font-family: "Optima";
+	font-size: 18px;
+	color: #154360;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(115, 140, 255);
+    outline-style: double;
+    outline-color: lavender;
+}
+
+
+li{
+    float: left;
+}
+
+
+li a, .dropbtn{
+    display: block;
+    color: lavender;
+    text-align: center;
+    padding: 8px 30px;
+    text-decoration: none;
+    font-family: "Optima";
+    font-size: 14px;
+    border: 1px solid lavender;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+	color: black;
+    background-color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
